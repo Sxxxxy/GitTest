@@ -6,8 +6,6 @@
 
 int main()
 {
-	std::cout << "11111" << std::endl;
-	std::cout << "22222" << std::endl;
-	std::cout<<"33333"<<std::endl;
+	std::cout<<"Hello Git!"<<std::endl;
 }
 
