@@ -3,11 +3,23 @@
 //
 
 #include <iostream>
+#include <vector>
+
+class order
+{
+public:
+	int num;
+};
 
 int main()
 {
-	std::cout<<"Hello Git!"<<std::endl;
-	std::cout << "Hello Git!" << std::endl;
-	std::cout << "Hello Git!" << std::endl;
+	order o;
+	o.num = 1;
+
+	std::vector<order> v;
+	v.emplace_back(o);
+	o.num = 2;
+	std::cout << o.num<<std::endl;
+	std::cout << v[0].num << std::endl;
 }
 
