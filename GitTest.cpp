@@ -7,5 +7,6 @@ int main()
 {
     std::cout << "Hello World! syyyyyyyyy\n";
     std::cout<<"test by sy"<<std::endl;
+    std::cout<<"test by sy2"<<std::endl;
 }
 
